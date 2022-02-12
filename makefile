@@ -2,7 +2,7 @@ TARGET  =  application
 SRC = $(wildcard ./*.c)
 OBJS = $(patsubst %.c,%.o,$(SRC))
 CC = gcc 
-INC = -I .   -I  /usr/include/modbus/
+INC =  -I .   -I  /usr/include/modbus/
 LIBS = -lmodbus -lm
 CFLAGS = -g -c -Wall
 
